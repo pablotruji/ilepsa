@@ -1,0 +1,145 @@
+*{
+    list-style: none;
+}
+
+.page-tittle{
+    text-align: center;
+}
+
+.container-roulette-page{
+    background-image: url("../../images/Background_JuegoMusica.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.container-roulette{
+    display: flex;
+    position: relative;
+    max-width: 500px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-roulette-text{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img[alt~="roulette-static"] 
+    { position: absolute; 
+        z-index: 15; 
+        width: 0px; 
+        right: 35px; 
+        top: 15px;  
+        rotate:(90 deg);
+        
+}
+img[alt="roulette-static-e"] 
+    { position: absolute; 
+        z-index: 15; 
+        width: 14%; 
+        right: 35px; 
+        top: -42px; 
+        content: url("../../images/Traguito-1_Recorte-3.png"); 
+        transform: rotate(220deg);
+}
+.penitencia{
+    font-size: 15px;
+    color:#fff ;
+}
+
+.botton-roulette{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    color: #EC1D25;
+    font-size: 15px;
+    font-weight: 800;
+    background: #FCC013;
+    padding:0.5em 2em;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.botton-roulette:hover{
+    color: #FCC013;
+    background: #EC1D25;
+    transition: 0.3s ease-in-out;
+}
+
+.container-rulers{
+    width: 100%;
+    color:#fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+.container-rulers h2{
+    color: #fff;
+    font-size: 20px;
+    text-align:center;
+}
+
+.prizes p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 640px) {
+
+    .botton-roulette{
+        font-size: 30px;
+        padding:0.5rem 3rem;
+    }
+
+    .container-rulers h2{
+        font-size: 30px;
+    }
+    .container-rulers{
+        font-size: 30px;
+    }
+
+    .prizes p {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    
+}
+@media screen and (min-width: 769px) {
+
+    
+    
+}
+@media screen and (min-width: 1024px) {
+    .container-roulette-page{
+        justify-content: space-evenly;
+        flex-direction: row; 
+    }
+
+    .container-roulette-text{
+        width: 50%;
+    }
+
+    .container-rulers{
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .container-rulers h2{
+        font-size: 40px;
+    }
+}

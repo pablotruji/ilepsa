@@ -1,0 +1,26 @@
+
+img[alt~="roulette-static"] 
+    { position: absolute; 
+        z-index: 15; 
+        width: 0px; 
+        right: 35px; 
+        top: 15px;  
+        rotate:(90 deg);
+}
+img[alt="roulette-static-e"] 
+    { position: absolute; 
+        z-index: 15; 
+        width: 14%; 
+        right: 35px; 
+        top: -42px; 
+        content: url("../../images/traguito-antiguo.png"); 
+        transform: rotate(220deg);
+}
+
+.container-roulete{
+    position: relative;
+}
+
+.botton-roulete{
+    display: none;
+}

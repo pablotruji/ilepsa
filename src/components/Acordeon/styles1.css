@@ -1,0 +1,100 @@
+.container {
+    width: 80%;
+    max-width: 520px;
+    margin: 0 auto;
+    min-width: 200px;
+    display: flex;
+}
+
+.accordion {
+    width: 290px;
+    color: #fff;
+}
+
+.accordionHeading{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.accordionHeading:hover{
+    background: rgba(0,0,0,0.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.accordionHeading .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordionHeading p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FCC013;
+}
+
+.accordionHeading span{
+    color: #FCC013;
+    font-weight: 600;
+}
+
+
+.accordionContent {
+    border-bottom: solid 2px #fff ;
+    padding:4px;
+    max-height: 0;
+    opacity: 0.5;
+    display: flex;
+    overflow: hidden;
+    transition: all 1000ms ease-in-out;
+}
+
+.accordionContent.show{
+    max-height: 999px;
+    opacity: 1;
+    transition: all 1600ms ease-in-out;
+}
+
+.accordionContent p{
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+@media screen and (min-width: 640px){
+    .container {
+        width: 100%;
+    }
+
+    .accordion{
+        width: 390px;
+    }
+
+    .accordionHeading p {
+        font-size: 22px;
+    }
+
+    .accordionContent p{
+        font-size: 20px;
+        line-height: 1.6;
+    
+    }
+}
+
+@media screen and (min-width: 769px){
+    .accordion{
+        width: 490px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .accordion{
+        width: 520px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+}
+
+

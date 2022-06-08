@@ -1,0 +1,10 @@
+#SlideSocialAmbiental{
+    width: 100%;
+    height: 100%;
+}
+
+#SlideSocialAmbiental .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
