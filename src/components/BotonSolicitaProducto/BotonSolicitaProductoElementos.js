@@ -24,6 +24,7 @@ export const BotonSolicitaElProducto = styled.a`
     &:hover{
         color: #FCC013;
         background: #EC1D25;
+        transform: scale(1.1);
         transition: 0.3s ease-in-out;
     }
 

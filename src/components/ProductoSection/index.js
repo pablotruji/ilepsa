@@ -113,8 +113,8 @@ import PinaColada from '../../images/botellasProductoVista/Pina-Colada-2.png'
 import Whisky from '../../images/botellasProductoVista/Whisky-2.png'
 import Amaretto from '../../images/botellasProductoVista/Amaretto-2.png'
 import TripleSec from '../../images/botellasProductoVista/Triple-sec-2.png'
-import RonOro from '../../images/botellasProductoVista/Rons-Oro.png'
-import RonPlata from '../../images/botellasProductoVista/Ron-Plata-2-1.png'
+import RonOro from '../../images/botellasProductoVista/Ron-Oro-2-2.png'
+import RonPlata from '../../images/botellasProductoVista/Ron-Plata-2-2.png'
 
 import Chirimoya from '../../images/botellasProductoVista/Chirimoya-2.png'
 import CocadaBelga from '../../images/botellasProductoVista/Cocada-Belga-2.png'
@@ -125,6 +125,7 @@ import backgroundDesktop_1 from '../../images/botellasProductoVista/Background_P
 import backgroundDesktop_2 from '../../images/botellasProductoVista/Background_Producto-2.jpg'
 import backgroundDesktop_3 from '../../images/botellasProductoVista/Background_Producto-3.jpg'
 import BackgroundMovil from '../../images/botellasProductoVista/Background_Oscuro_Movil_Producto.jpg';
+import backgroundDesktop_4 from '../../images/botellasProductoVista/Background_Producto-4.jpg'
 
 /* TÍTULOS */
 import {
@@ -146,7 +147,8 @@ import {
     TituloChirimoya,
     TituloCocadaBelga,
     TituloGoldenNut,
-    TituloRompope
+    TituloRompope,
+    SubtituloTraguito
 
 } from './Constantes'
 
@@ -907,7 +909,7 @@ const ProductoVista = () => {
                             <ContenedorProductoInformacion>
                                 <ContenedorTitulos>
                                     <TituloProducto colorTitulo={'#FCC013'}>{TituloTraguito}</TituloProducto>
-                                    <SubtituloProducto>AGUARDIENTE DE CAÑA</SubtituloProducto>
+                                    <SubtituloProducto>{SubtituloTraguito}</SubtituloProducto>
                                 </ContenedorTitulos>                    
                                 <DescripcionProducto>
                                     <TraguitoDesc/>
@@ -935,7 +937,7 @@ const ProductoVista = () => {
 
                             <ContenedorInfo2>
                                 <h2>{TituloTraguito}</h2>
-                                <h3>AGUARDIENTE DE CAÑA</h3>
+                                <h3>{SubtituloTraguito}</h3>
                                 <ContenedorCajasInformacion2>
                                     <div>
                                         <h3>Grado Alcohólico</h3>
@@ -2031,7 +2033,7 @@ const ProductoVista = () => {
                     </SwiperSlide>
 
                     <SwiperSlide data-history="ron-oro">
-                        <ContenedorProducto backgroundDesktop2={backgroundDesktop_2} >
+                        <ContenedorProducto backgroundDesktop2={backgroundDesktop_4} >
                             <ContenedorProductoInformacion>
                                 <ContenedorTitulos>
                                     <TituloProducto colorTitulo={'#FFCC69'}>{TituloRonOro}</TituloProducto>
@@ -2103,7 +2105,7 @@ const ProductoVista = () => {
                     </SwiperSlide>
 
                     <SwiperSlide data-history="ron-plata">
-                        <ContenedorProducto backgroundDesktop2={backgroundDesktop_2}>
+                        <ContenedorProducto backgroundDesktop2={backgroundDesktop_3}>
                             <ContenedorProductoInformacion>
                                 <ContenedorTitulos>
                                     <TituloProducto colorTitulo={'#DFDFDF'}>{TituloRonPlata}</TituloProducto>

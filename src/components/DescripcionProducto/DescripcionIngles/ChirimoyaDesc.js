@@ -4,7 +4,7 @@ const ChirimoyaDesc = () => {
     return (
         <>
             <p>
-                Empty.
+                Creamy and riped Chirimoya with a light floral taste.
             </p>  
         </>
     )

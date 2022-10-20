@@ -5,6 +5,7 @@ import {
     ContenedorHome, 
     HomeBotonContenedor,
     HomeBotonProductos, 
+    HomeBotonVentas,
     FlechaAdelante, 
     FlechaDerecha,
     ImgLeyenda,
@@ -29,6 +30,18 @@ const HomeSection = () => {
                     <HomeBotonProductos to="/products" onMouseEnter={onHover} onMouseLeave={onHover}>
                     SEE ALL PRODUCTS {hover ? <FlechaAdelante/>: <FlechaDerecha/>}
                     </HomeBotonProductos>
+
+                    <HomeBotonVentas 
+                    to="mapa"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact='true'
+                    offset={-50}
+                    onMouseEnter={onHover} 
+                    onMouseLeave={onHover}>
+                        VISIT OUR POINT OF SALE{hover ? <FlechaAdelante/>: <FlechaDerecha/>}
+                    </HomeBotonVentas>
                 </HomeBotonContenedor>
             </ContenedorHome>
         </ContenedorPaginaHome>

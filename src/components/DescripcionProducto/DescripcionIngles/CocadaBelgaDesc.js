@@ -4,7 +4,7 @@ const CocadaBelgaDesc = () => {
     return (
         <>
             <p>
-                Empty.
+                Ripe coconut zest with creamy dairy notes and vainilla base.
             </p>  
         </>
     )

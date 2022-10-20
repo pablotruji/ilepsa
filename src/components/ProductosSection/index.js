@@ -42,8 +42,8 @@ import CocadaBelga from '../../images/botellasProductos/Cocada-Belga-1.jpg'
 import GoldenNut from '../../images/botellasProductos/Golden-Nut-1.jpg'
 import Rompope from '../../images/botellasProductos/Rompope-1.jpg'
 import TripleSec from '../../images/botellasProductos/Triple-Sec-Colds-1.jpg'
-import RonOro from '../../images/botellasProductos/Ron-Isla-Oro-1.jpg'
-import RonPlata from '../../images/botellasProductos/Ron-Isla-Plata-1.jpg'
+import RonOro from '../../images/botellasProductos/Ron-Isla-Oro-2.jpg'
+import RonPlata from '../../images/botellasProductos/Ron-Isla-Plata-2.jpg'
 
 SwiperCore.use([Navigation,Pagination,EffectCoverflow]);
 

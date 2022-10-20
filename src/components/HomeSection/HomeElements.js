@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md'
 import {Link as LinkR} from 'react-router-dom';
+import {Link as LinkS} from 'react-scroll';
 import { EffectCoverflow } from 'swiper'
 /*import background_movil from '../../images/Background_Home_Movil_1.jpg';*/
 /*import background_desktop from '../../images/Background_Home.jpg';*/
@@ -60,7 +61,9 @@ export const Img50anhos = styled.img`
 export const HomeBotonContenedor = styled.div`
     display: flex;
     justify-content: center;
+    flex-direction: column;
 ` 
+
 
 export const HomeBotonProductos = styled(LinkR)`
     display: flex;
@@ -72,6 +75,7 @@ export const HomeBotonProductos = styled(LinkR)`
     font-weight: 800;
     background: #FCC013;
     padding:10px 30px;
+    margin: 10px ;
     border-radius: 100px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -84,6 +88,33 @@ export const HomeBotonProductos = styled(LinkR)`
         transform: scale(1.1);
         transition: 0.3s ease-in-out;
     }
+    
+` 
+
+export const HomeBotonVentas = styled(LinkS)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 22px;
+    font-weight: 800;
+    background: #1F9007;
+    color: #fff;
+    padding:10px 30px;
+    margin: 10px ;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    transform: scale(1);
+    transition:  0.3s ease;
+    &:hover{
+        background: #006BCA;
+        color: #fff;
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+    }
+    
 ` 
 
 export const FlechaAdelante = styled(MdArrowForward)`
@@ -95,3 +126,4 @@ export const FlechaDerecha = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 30px;
 `
+

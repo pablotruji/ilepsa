@@ -111,8 +111,8 @@ import PinaColada from '../../images/botellasProductoVista/Pina-Colada-2.png'
 import Whisky from '../../images/botellasProductoVista/Whisky-2.png'
 import Amaretto from '../../images/botellasProductoVista/Amaretto-2.png'
 import TripleSec from '../../images/botellasProductoVista/Triple-sec-2.png'
-import RonOro from '../../images/botellasProductoVista/Rons-Oro.png'
-import RonPlata from '../../images/botellasProductoVista/Ron-Plata-2-1.png'
+import RonOro from '../../images/botellasProductoVista/Ron-Oro-2-2.png'
+import RonPlata from '../../images/botellasProductoVista/Ron-Plata-2-2.png'
 
 import Chirimoya from '../../images/botellasProductoVista/Chirimoya-2.png'
 import CocadaBelga from '../../images/botellasProductoVista/Cocada-Belga-2.png'
@@ -122,6 +122,7 @@ import Rompope from '../../images/botellasProductoVista/Rompope-2.png'
 import backgroundDesktop_1 from '../../images/botellasProductoVista/Background_Producto.jpg'
 import backgroundDesktop_2 from '../../images/botellasProductoVista/Background_Producto-2.jpg'
 import backgroundDesktop_3 from '../../images/botellasProductoVista/Background_Producto-3.jpg'
+import backgroundDesktop_4 from '../../images/botellasProductoVista/Background_Producto-4.jpg'
 
 
 import {
@@ -159,7 +160,11 @@ import {
     SubtituloEnMenta,
     SubtituloEnCuracao,
     SubtituloEnCafe,
-    SubtituloEnCacao
+    SubtituloEnCacao,
+    SubtituloEnChirimoya,
+    SubtituloEnCocadaBelga,
+    SubtituloEnGoldenNut,
+    SubtituloEnRompope
 
 } from './Constantes'
 
@@ -1792,7 +1797,7 @@ const ProductoVista = () => {
                             <ContenedorProductoInformacion>
                                 <ContenedorTitulos>
                                     <TituloProducto colorTitulo={'#B3D11B'}>{TituloChirimoya}</TituloProducto>
-                                    <SubtituloProducto>-</SubtituloProducto>
+                                    <SubtituloProducto>{SubtituloEnChirimoya}</SubtituloProducto>
                                 </ContenedorTitulos>                    
                                 <DescripcionProducto>
                                     <ChirimoyaDesc/>
@@ -1818,7 +1823,7 @@ const ProductoVista = () => {
                             </ContenedorProductoInformacion>
                             <ContenedorInfo2>
                                 <h2 style={{color:'#B3D11B'}}>{TituloChirimoya}</h2>
-                                <h3>-</h3>
+                                <h3>{SubtituloEnChirimoya}</h3>
                                 <ContenedorCajasInformacion2>
                                     <div>
                                         <h3>Alcoholic Grade</h3>
@@ -1856,7 +1861,7 @@ const ProductoVista = () => {
                             <ContenedorProductoInformacion>
                                 <ContenedorTitulos>
                                     <TituloProducto colorTitulo={'#D555A2'}>{TituloCocadaBelga}</TituloProducto>
-                                    <SubtituloProducto>-</SubtituloProducto>
+                                    <SubtituloProducto>{SubtituloEnCocadaBelga}</SubtituloProducto>
                                 </ContenedorTitulos>                    
                                 <DescripcionProducto>
                                    <CocadaBelgaDesc/>
@@ -1882,7 +1887,7 @@ const ProductoVista = () => {
                             </ContenedorProductoInformacion>
                             <ContenedorInfo2>
                                 <h2 style={{color:'#D555A2'}}>{TituloCocadaBelga}</h2>
-                                <h3>-</h3>
+                                <h3>{SubtituloEnCocadaBelga}</h3>
                                 <ContenedorCajasInformacion2>
                                     <div>
                                         <h3>Alcoholic Grade</h3>
@@ -1920,7 +1925,7 @@ const ProductoVista = () => {
                             <ContenedorProductoInformacion>
                                 <ContenedorTitulos>
                                     <TituloProducto colorTitulo={'#E3C629'}>{TituloGoldenNut}</TituloProducto>
-                                    <SubtituloProducto>{SubtituloEnTripleSec}</SubtituloProducto>
+                                    <SubtituloProducto>{SubtituloEnGoldenNut}</SubtituloProducto>
                                 </ContenedorTitulos>                    
                                 <DescripcionProducto>
                                    <GoldenNutDesc/>
@@ -1984,7 +1989,7 @@ const ProductoVista = () => {
                             <ContenedorProductoInformacion>
                                 <ContenedorTitulos>
                                     <TituloProducto colorTitulo={'#EEE19F'}>{TituloRompope}</TituloProducto>
-                                    <SubtituloProducto>-</SubtituloProducto>
+                                    <SubtituloProducto>{SubtituloEnRompope}</SubtituloProducto>
                                 </ContenedorTitulos>                    
                                 <DescripcionProducto>
                                    <RompopeDesc/>
@@ -2044,7 +2049,7 @@ const ProductoVista = () => {
                     </SwiperSlide>
 
                     <SwiperSlide data-history="ron-oro">
-                        <ContenedorProducto backgroundDesktop2={backgroundDesktop_2} >
+                        <ContenedorProducto backgroundDesktop2={backgroundDesktop_4} >
                             <ContenedorProductoInformacion>
                                 <ContenedorTitulos>
                                     <TituloProducto colorTitulo={'#FFCC69'}>{TituloRonOro}</TituloProducto>
@@ -2115,7 +2120,7 @@ const ProductoVista = () => {
                     </SwiperSlide>
 
                     <SwiperSlide data-history="ron-plata">
-                        <ContenedorProducto backgroundDesktop2={backgroundDesktop_2}>
+                        <ContenedorProducto backgroundDesktop2={backgroundDesktop_3}>
                             <ContenedorProductoInformacion>
                                 <ContenedorTitulos>
                                     <TituloProducto colorTitulo={'#DFDFDF'}>{TituloRonPlata}</TituloProducto>
