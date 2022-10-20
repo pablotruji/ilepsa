@@ -2177,7 +2177,7 @@ const ProductoVista = () => {
                             <ContenedorImg src={RonPlata}/>
 
                             <BotonVerMas onClick={openModal13}>
-                                <a>FIND OUT THE USES AND RECIPES OF<span> RON PLATA COLD'S</span></a>
+                                <a>FIND OUT THE USES AND RECIPES OF<span> RON PLATA</span></a>
                             </BotonVerMas>
                             <ModalVideo13 showModal13={showModal13} setShowModal13={setShowModal13}/>
 

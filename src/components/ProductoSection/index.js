@@ -2162,7 +2162,7 @@ const ProductoVista = () => {
                             <ContenedorImg src={RonPlata}/>
 
                             <BotonVerMas onClick={openModal13}>
-                                <a>DESCUBRE LOS USOS Y RECETAS DEL<span> RON PLATA COLD'S</span></a>
+                                <a>DESCUBRE LOS USOS Y RECETAS DEL<span> RON PLATA</span></a>
                             </BotonVerMas>
                             <ModalVideo13 showModal13={showModal13} setShowModal13={setShowModal13}/>
 
